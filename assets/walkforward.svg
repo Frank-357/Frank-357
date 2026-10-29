@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="t d">
+<title id="t">CTA factor research at Dongxing Securities</title>
+<desc id="d">80+ alpha factors on IF, IC and IM futures; XGBoost with 5-fold rolling validation, ranked by mean feature importance and cross-fold stability to select the top 30. Sliding-window out-of-sample validation with 12-month training and 3-month validation windows, net of costs.</desc>
+<style>
+text{font-family:'Avenir Next','Avenir','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+.h{font-size:24px;font-weight:600;fill:#e8eef5}
+.sub{font-size:15px;fill:#7c8aa0;letter-spacing:.4px}
+.lbl{font-size:15px;fill:#e8eef5}
+.lbl2{font-size:13px;fill:#aab6c8}
+.cap{font-size:12px;fill:#7c8aa0;letter-spacing:1.4px;text-transform:uppercase}
+.mono{font-family:'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:13px;fill:#aab6c8}
+.scan{fill:#fff;opacity:.10;animation:scan 6s ease-in-out infinite}@keyframes scan{0%{transform:translateX(0)}50%{transform:translateX(150px)}100%{transform:translateX(0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+@media (prefers-reduced-motion: reduce){.flow{display:none}}
+</style>
+<defs>
+<linearGradient id="cardbg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0c1322"/><stop offset=".7" stop-color="#0f1626"/><stop offset="1" stop-color="#1c1020"/>
+</linearGradient>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#aab6c8"/></marker>
+<clipPath id="cardclip"><rect x="1" y="1" width="1198" height="448" rx="18"/></clipPath>
+</defs>
+<rect x="1" y="1" width="1198" height="448" rx="18" fill="url(#cardbg)"/>
+<rect x="0" y="0" width="1200" height="5" fill="#800000" clip-path="url(#cardclip)"/>
+<rect x="1" y="1" width="1198" height="448" rx="18" fill="none" stroke="#24304a" stroke-width="1.5"/>
+
+<text x="32" y="50" class="h">CTA factor research — Dongxing Securities</text>
+<text x="32" y="74" class="sub">Quantitative Research Intern, CTA Desk · Shanghai · Jul – Aug 2025 · Python, XGBoost</text>
+<rect x="32" y="104" width="400" height="62" rx="10" fill="#131d31" stroke="#3987e5" stroke-width="1.6"/>
+<text x="232" y="130" text-anchor="middle" style="font-size:15px;font-weight:600;fill:#e8eef5">80+ candidate factors</text>
+<text x="232" y="150" text-anchor="middle" class="lbl2" style="font-size:12px">price · volume · order flow · market depth</text>
+<line x1="232" y1="166" x2="232" y2="182" stroke="#aab6c8" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="52" y="184" width="360" height="62" rx="10" fill="#131d31" stroke="#3987e5" stroke-width="1.6"/>
+<text x="232" y="210" text-anchor="middle" style="font-size:15px;font-weight:600;fill:#e8eef5">Lag-only feature pipeline</text>
+<text x="232" y="230" text-anchor="middle" class="lbl2" style="font-size:12px">per-window transforms · NaN-preserving + is_active</text>
+<line x1="232" y1="246" x2="232" y2="262" stroke="#aab6c8" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="72" y="264" width="320" height="62" rx="10" fill="#131d31" stroke="#199e70" stroke-width="1.6"/>
+<text x="232" y="290" text-anchor="middle" style="font-size:15px;font-weight:600;fill:#e8eef5">XGBoost · 5-fold rolling</text>
+<text x="232" y="310" text-anchor="middle" class="lbl2" style="font-size:12px">rank by mean importance + cross-fold stability</text>
+<line x1="232" y1="326" x2="232" y2="342" stroke="#aab6c8" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="92" y="344" width="280" height="62" rx="10" fill="#131d31" stroke="#c98500" stroke-width="1.6"/>
+<text x="232" y="370" text-anchor="middle" style="font-size:15px;font-weight:600;fill:#e8eef5">Top 30 factors</text>
+<text x="232" y="390" text-anchor="middle" class="lbl2" style="font-size:12px">carried into out-of-sample testing</text>
+<text x="480" y="112" class="cap">Sliding-window out-of-sample test · net of costs (schematic)</text>
+
+<rect x="480.0" y="128" width="166.0" height="26" rx="4" fill="#3987e5"/>
+<rect x="648.0" y="128" width="40.0" height="26" rx="4" fill="#d95926"/>
+<text x="488.0" y="146" style="font-size:13px;font-weight:600;fill:#08101f">train · 12 months</text>
+<text x="700.0" y="146" class="lbl2">validate · 3 months</text>
+
+<rect x="522.0" y="168" width="166.0" height="26" rx="4" fill="#3987e5"/>
+<rect x="690.0" y="168" width="40.0" height="26" rx="4" fill="#d95926"/>
+
+<rect x="564.0" y="208" width="166.0" height="26" rx="4" fill="#3987e5"/>
+<rect x="732.0" y="208" width="40.0" height="26" rx="4" fill="#d95926"/>
+
+<rect x="606.0" y="248" width="166.0" height="26" rx="4" fill="#3987e5"/>
+<rect x="774.0" y="248" width="40.0" height="26" rx="4" fill="#d95926"/>
+
+<rect x="648.0" y="288" width="166.0" height="26" rx="4" fill="#3987e5"/>
+<rect x="816.0" y="288" width="40.0" height="26" rx="4" fill="#d95926"/>
+
+<rect x="690.0" y="328" width="166.0" height="26" rx="4" fill="#3987e5"/>
+<rect x="858.0" y="328" width="40.0" height="26" rx="4" fill="#d95926"/>
+<line x1="480" y1="374" x2="900.0" y2="374" stroke="#7c8aa0" marker-end="url(#arr)"/>
+<text x="912.0" y="378" class="lbl2">time</text>
+<rect x="950" y="132" width="14" height="14" rx="3" fill="#3987e5"/><text x="972" y="144" class="lbl2">training window</text>
+<rect x="950" y="158" width="14" height="14" rx="3" fill="#d95926"/><text x="972" y="170" class="lbl2">validation window</text>
+<text x="950" y="210" class="lbl2">Each window steps forward; the</text>
+<text x="950" y="230" class="lbl2">model never sees its validation</text>
+<text x="950" y="250" class="lbl2">period during training.</text>
+<text x="950" y="270" class="lbl2"></text>
+<text x="950" y="290" class="lbl2">Reported: total &amp; annualized</text>
+<text x="950" y="310" class="lbl2">return, Sharpe, max drawdown,</text>
+<text x="950" y="330" class="lbl2">win rate.</text>
+<text x="950" y="350" class="lbl2"></text>
+<text x="950" y="370" class="lbl2">Delivered scripts, notebooks,</text>
+<text x="950" y="390" class="lbl2">dashboards and documentation.</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+<title id="t">Path, 2023 to 2028</title>
+<desc id="d">Financial Street Securities Jul–Aug 2023; Dongxing Securities Jul–Aug 2025; Procurement Pilot Jan–May 2026; Factor Research Harness Feb 2026 to present; B.S. George Washington University May 2026; CFA Level I passed Aug 2026; MS Applied Data Science University of Chicago through June 2028; seeking a Summer 2027 internship.</desc>
+<style>
+text{font-family:'Avenir Next','Avenir','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+.h{font-size:24px;font-weight:600;fill:#e8eef5}
+.sub{font-size:15px;fill:#7c8aa0;letter-spacing:.4px}
+.lbl{font-size:15px;fill:#e8eef5}
+.lbl2{font-size:13px;fill:#aab6c8}
+.cap{font-size:12px;fill:#7c8aa0;letter-spacing:1.4px;text-transform:uppercase}
+.mono{font-family:'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:13px;fill:#aab6c8}
+.now{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+@media (prefers-reduced-motion: reduce){.flow{display:none}}
+</style>
+<defs>
+<linearGradient id="cardbg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0c1322"/><stop offset=".7" stop-color="#0f1626"/><stop offset="1" stop-color="#1c1020"/>
+</linearGradient>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#aab6c8"/></marker>
+<clipPath id="cardclip"><rect x="1" y="1" width="1198" height="398" rx="18"/></clipPath>
+</defs>
+<rect x="1" y="1" width="1198" height="398" rx="18" fill="url(#cardbg)"/>
+<rect x="0" y="0" width="1200" height="5" fill="#800000" clip-path="url(#cardclip)"/>
+<rect x="1" y="1" width="1198" height="398" rx="18" fill="none" stroke="#24304a" stroke-width="1.5"/>
+
+<text x="32" y="50" class="h">Path</text>
+<text x="32" y="122" class="cap">Experience</text>
+<line x1="150" y1="117" x2="1160" y2="117" stroke="#24304a"/>
+<text x="32" y="190" class="cap">Projects</text>
+<line x1="150" y1="185" x2="1160" y2="185" stroke="#24304a"/>
+<text x="32" y="258" class="cap">Education</text>
+<line x1="150" y1="253" x2="1160" y2="253" stroke="#24304a"/>
+<text x="32" y="314" class="cap">Credentials</text>
+<line x1="150" y1="309" x2="1160" y2="309" stroke="#24304a"/>
+<line x1="150.0" y1="92" x2="150.0" y2="330" stroke="#24304a" stroke-dasharray="2 4"/>
+<text x="154.0" y="350" class="mono" style="font-size:13px">2023</text>
+<line x1="318.3" y1="92" x2="318.3" y2="330" stroke="#24304a" stroke-dasharray="2 4"/>
+<text x="322.3" y="350" class="mono" style="font-size:13px">2024</text>
+<line x1="486.7" y1="92" x2="486.7" y2="330" stroke="#24304a" stroke-dasharray="2 4"/>
+<text x="490.7" y="350" class="mono" style="font-size:13px">2025</text>
+<line x1="655.0" y1="92" x2="655.0" y2="330" stroke="#24304a" stroke-dasharray="2 4"/>
+<text x="659.0" y="350" class="mono" style="font-size:13px">2026</text>
+<line x1="823.3" y1="92" x2="823.3" y2="330" stroke="#24304a" stroke-dasharray="2 4"/>
+<text x="827.3" y="350" class="mono" style="font-size:13px">2027</text>
+<line x1="991.7" y1="92" x2="991.7" y2="330" stroke="#24304a" stroke-dasharray="2 4"/>
+<text x="995.7" y="350" class="mono" style="font-size:13px">2028</text>
+<rect x="234.2" y="104" width="26.1" height="26" rx="4" fill="#3987e5"/>
+<text x="270.2" y="122" text-anchor="start" class="lbl" style="font-size:13px">Financial Street Securities · fixed income</text>
+<rect x="570.8" y="104" width="26.1" height="26" rx="4" fill="#3987e5"/>
+<text x="606.9" y="122" text-anchor="start" class="lbl" style="font-size:13px">Dongxing Securities · CTA desk</text>
+<rect x="655.0" y="160" width="68.1" height="18" rx="4" fill="#199e70"/>
+<text x="647.0" y="174" text-anchor="end" class="lbl" style="font-size:13px">Procurement Pilot</text>
+<rect x="669.0" y="184" width="124.2" height="18" rx="4" fill="#199e70"/>
+<text x="803.3" y="198" text-anchor="start" class="lbl" style="font-size:13px">Factor Research Harness → present</text>
+<path d="M711.1,240 l9,13 l-9,13 l-9,-13z" fill="#d95926"/>
+<text x="699.1" y="258" text-anchor="end" class="lbl" style="font-size:13px">B.S. Business Analytics · GWU</text>
+<rect x="767.2" y="240" width="306.6" height="26" rx="4" fill="#d95926"/>
+<text x="799.3" y="258" text-anchor="start" class="lbl" style="font-size:13px;font-weight:600;fill:#08101f">M.S. Applied Data Science · UChicago</text>
+<path d="M753.2,296 l9,13 l-9,13 l-9,-13z" fill="#c98500"/>
+<text x="765.2" y="314" text-anchor="start" class="lbl" style="font-size:13px">CFA Level I passed</text>
+<rect x="893.5" y="104" width="42.1" height="26" rx="4" fill="none" stroke="#e07a8a" stroke-width="1.8" stroke-dasharray="5 4"/>
+<text x="943.6" y="122" style="font-size:13px;font-weight:600;fill:#e8eef5">Seeking: Summer 2027 internship</text>
+<line x1="794.2" y1="88" x2="794.2" y2="326" stroke="#e07a8a" stroke-width="1.6" class="now"/>
+<text x="794.2" y="84" text-anchor="middle" class="cap" style="fill:#e07a8a">Oct 2026</text>
+<text x="32" y="380" class="lbl2" style="font-size:12px">Bars show dated periods from the resume; diamonds are completion dates.</text>
+</svg>

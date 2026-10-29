@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="18" viewBox="0 0 1200 18" role="img" aria-label="divider">
+<style>.g{animation:slide 7s ease-in-out infinite alternate}@keyframes slide{from{transform:translateX(-500px)}to{transform:translateX(900px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#800000" stop-opacity="0"/><stop offset=".5" stop-color="#800000"/><stop offset="1" stop-color="#800000" stop-opacity="0"/></linearGradient>
+<linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#e07a8a" stop-opacity="0"/><stop offset=".5" stop-color="#ffd9df"/><stop offset="1" stop-color="#e07a8a" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="8" width="1200" height="2" fill="url(#l)"/>
+<rect class="g" x="0" y="7" width="300" height="4" rx="2" fill="url(#s)"/>
+</svg>

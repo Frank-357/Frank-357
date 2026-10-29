@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t d">
+<title id="t">Autonomous Factor Research Harness</title>
+<desc id="d">An LLM agent proposes factor expressions; a fixed, agent-immutable evaluator applies discovery 2021, validation 2022 and holdout 2023 gates plus correlation de-duplication. 4,622 cloud trials across 19 signal families; schema-level validation removed 197 sign-flipped factors, 30% of the archive.</desc>
+<style>
+text{font-family:'Avenir Next','Avenir','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+.h{font-size:24px;font-weight:600;fill:#e8eef5}
+.sub{font-size:15px;fill:#7c8aa0;letter-spacing:.4px}
+.lbl{font-size:15px;fill:#e8eef5}
+.lbl2{font-size:13px;fill:#aab6c8}
+.cap{font-size:12px;fill:#7c8aa0;letter-spacing:1.4px;text-transform:uppercase}
+.mono{font-family:'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:13px;fill:#aab6c8}
+.flow{stroke:#e07a8a;stroke-width:3;stroke-linecap:round;stroke-dasharray:14 900;animation:run 4s linear infinite}@keyframes run{from{stroke-dashoffset:914}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+@media (prefers-reduced-motion: reduce){.flow{display:none}}
+</style>
+<defs>
+<linearGradient id="cardbg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0c1322"/><stop offset=".7" stop-color="#0f1626"/><stop offset="1" stop-color="#1c1020"/>
+</linearGradient>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#aab6c8"/></marker>
+<clipPath id="cardclip"><rect x="1" y="1" width="1198" height="468" rx="18"/></clipPath>
+</defs>
+<rect x="1" y="1" width="1198" height="468" rx="18" fill="url(#cardbg)"/>
+<rect x="0" y="0" width="1200" height="5" fill="#800000" clip-path="url(#cardclip)"/>
+<rect x="1" y="1" width="1198" height="468" rx="18" fill="none" stroke="#24304a" stroke-width="1.5"/>
+
+<text x="32" y="50" class="h">Autonomous Factor Research Harness</text>
+<text x="32" y="74" class="sub">Microsoft Qlib · Karpathy's autoresearch loop adapted to factor research · Feb 2026 – present</text>
+<path d="M137,168 L1095,168" class="flow" fill="none"/>
+<rect x="32" y="116" width="210" height="104" rx="10" fill="#131d31" stroke="#e07a8a" stroke-width="1.6"/>
+<rect x="32" y="126" width="4" height="84" rx="2" fill="#e07a8a"/>
+<text x="48" y="142" style="font-size:15px;font-weight:600;fill:#e8eef5">LLM agent</text>
+<text x="48" y="164" class="lbl2">proposes factor</text>
+<text x="48" y="183" class="lbl2">expressions</text>
+<rect x="282" y="98" width="700" height="140" rx="14" fill="none" stroke="#aab6c8" stroke-opacity=".5" stroke-dasharray="6 6"/>
+<text x="298" y="120" class="cap">Fixed, agent-immutable evaluator</text>
+<rect x="300" y="136" width="150" height="84" rx="10" fill="#131d31" stroke="#3987e5" stroke-width="1.6"/>
+<rect x="300" y="146" width="4" height="64" rx="2" fill="#3987e5"/>
+<text x="316" y="162" style="font-size:15px;font-weight:600;fill:#e8eef5">Discovery</text>
+<text x="316" y="184" class="lbl2">2021</text>
+<line x1="450" y1="178" x2="472" y2="178" stroke="#aab6c8" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="472" y="136" width="150" height="84" rx="10" fill="#131d31" stroke="#3987e5" stroke-width="1.6"/>
+<rect x="472" y="146" width="4" height="64" rx="2" fill="#3987e5"/>
+<text x="488" y="162" style="font-size:15px;font-weight:600;fill:#e8eef5">Validation</text>
+<text x="488" y="184" class="lbl2">2022</text>
+<line x1="622" y1="178" x2="644" y2="178" stroke="#aab6c8" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="644" y="136" width="150" height="84" rx="10" fill="#131d31" stroke="#3987e5" stroke-width="1.6"/>
+<rect x="644" y="146" width="4" height="64" rx="2" fill="#3987e5"/>
+<text x="660" y="162" style="font-size:15px;font-weight:600;fill:#e8eef5">Holdout</text>
+<text x="660" y="184" class="lbl2">2023</text>
+<line x1="794" y1="178" x2="816" y2="178" stroke="#aab6c8" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="816" y="136" width="150" height="84" rx="10" fill="#131d31" stroke="#199e70" stroke-width="1.6"/>
+<rect x="816" y="146" width="4" height="64" rx="2" fill="#199e70"/>
+<text x="832" y="162" style="font-size:15px;font-weight:600;fill:#e8eef5">Correlation</text>
+<text x="832" y="184" class="lbl2">de-dup</text>
+<line x1="242" y1="168" x2="298" y2="168" stroke="#aab6c8" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="1022" y="116" width="146" height="104" rx="10" fill="#131d31" stroke="#c98500" stroke-width="1.6"/>
+<rect x="1022" y="126" width="4" height="84" rx="2" fill="#c98500"/>
+<text x="1038" y="142" style="font-size:15px;font-weight:600;fill:#e8eef5">Factor</text>
+<text x="1038" y="164" class="lbl2">archive</text>
+<line x1="982" y1="168" x2="1020" y2="168" stroke="#aab6c8" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M1095,220 C1095,280 137,280 137,222" fill="none" stroke="#aab6c8" stroke-width="1.4" stroke-dasharray="5 6" marker-end="url(#arr)"/>
+<text x="600" y="276" text-anchor="middle" class="lbl2">results feed the next proposal</text>
+<rect x="32" y="308" width="302" height="136" rx="10" fill="#131d31" stroke="#199e70" stroke-width="1.6"/>
+<rect x="32" y="318" width="4" height="116" rx="2" fill="#199e70"/>
+<text x="48" y="334" style="font-size:15px;font-weight:600;fill:#e8eef5">Scale</text>
+<text x="48" y="356" class="lbl2">4,622 cloud trials</text>
+<text x="48" y="375" class="lbl2">across 19 signal families</text>
+<rect x="352" y="308" width="402" height="136" rx="10" fill="#131d31" stroke="#d95926" stroke-width="1.6"/>
+<rect x="352" y="318" width="4" height="116" rx="2" fill="#d95926"/>
+<text x="368" y="334" style="font-size:15px;font-weight:600;fill:#e8eef5">Audit</text>
+<text x="368" y="356" class="lbl2">A documented holdout gate was never</text>
+<text x="368" y="375" class="lbl2">enforced in code → added schema-level</text>
+<text x="368" y="394" class="lbl2">validation; removed 197 sign-flipped</text>
+<text x="368" y="413" class="lbl2">factors (30% of the archive)</text>
+<rect x="772" y="308" width="402" height="136" rx="10" fill="#131d31" stroke="#c98500" stroke-width="1.6"/>
+<rect x="772" y="318" width="4" height="116" rx="2" fill="#c98500"/>
+<text x="788" y="334" style="font-size:15px;font-weight:600;fill:#e8eef5">Attribution</text>
+<text x="788" y="356" class="lbl2">Lead strategy showed a significant</text>
+<text x="788" y="375" class="lbl2">cash/beta contribution, not pure alpha</text>
+<text x="788" y="394" class="lbl2">→ repositioned as a reproducible</text>
+<text x="788" y="413" class="lbl2">research platform</text>
+</svg>
