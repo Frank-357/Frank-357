@@ -128,12 +128,7 @@ Coursework: Machine Learning · Forecasting Analytics (Time Series Analysis)
 
 ## Open source I'm studying
 
-These are forks I keep for reading and experiments. The code belongs to the original authors.
-
-- [TradingAgents](https://github.com/Frank-357/TradingAgents) — multi-agent LLM financial trading framework (fork of `TauricResearch/TradingAgents`)
-- [autoresearch](https://github.com/Frank-357/autoresearch) — AI agents running research loops automatically (fork of `karpathy/autoresearch`; the loop my factor harness adapts)
-- [Machine Learning for High-Risk Applications](https://github.com/Frank-357/Machine-Learning-for-High-Risk-Applications-Book) — code for the O'Reilly book (fork)
-- [Interpretable ML with Python](https://github.com/Frank-357/interpretable_machine_learning_with_python) — training, explaining and debugging interpretable models (fork of `jphall663/interpretable_machine_learning_with_python`)
+- [autoresearch](https://github.com/karpathy/autoresearch) by Andrej Karpathy: AI agents running research loops automatically (the loop my factor harness adapts)
 
 ## Beyond the code
 
