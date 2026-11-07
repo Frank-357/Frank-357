@@ -45,7 +45,7 @@ I'm looking for **Summer 2027 internships** in quantitative research, investment
 - Ran **4,622 cloud trials across 19 signal families**. After finding that a documented holdout gate was never enforced in code, I added schema-level validation that **removed 197 sign-flipped factors (30% of the archive)**.
 - Attributed the lead strategy's performance and found a significant **cash/beta contribution rather than pure alpha**, so I repositioned the project from alpha hunting to a reproducible research platform.
 
-### Procurement Pilot · System Architect · Jan – May 2026
+### [Procurement Pilot](https://github.com/jbeck0854/procurement_agent) · System Architect · Jan – May 2026
 
 <img src="assets/procurement.svg" width="100%" alt="Diagram: a planning question passes pre-execution review, then a LangGraph router sends open-ended intent to an LLM and decision-critical workflows to deterministic parsers, which call team-built analytics modules feeding a Streamlit decision workflow with approve, modify and discard controls.">
 
